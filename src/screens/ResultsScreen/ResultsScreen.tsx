@@ -51,10 +51,8 @@ const ResultsScreen = () => {
 
   return (
     <SafeAreaView style={styles.container}>
-      <View>
-        <Button onPress={goBack} style={{margin: 10}}>
-          Back
-        </Button>
+      <View style={{margin: 10}}>
+        <Button onPress={goBack}>Back</Button>
       </View>
       <FlatList
         onEndReached={handleEndReached}

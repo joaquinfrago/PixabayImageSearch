@@ -68,10 +68,8 @@ const DetailScreen = () => {
         <ActivityIndicator />
       ) : (
         <>
-          <View>
-            <Button onPress={goBack} style={{margin: 10}}>
-              Back
-            </Button>
+          <View style={{margin: 10}}>
+            <Button onPress={goBack}>Back</Button>
           </View>
           <View>
             <Image
